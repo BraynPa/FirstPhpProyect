@@ -1,0 +1,26 @@
+{
+    "name": "equipo/demo",
+    "authors": [
+        {
+            "name": "BraynPa",
+            "email": "bry1301@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
